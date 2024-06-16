@@ -1,0 +1,58 @@
+* {box-sizing: border-box}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 3000px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+ 
+   
+  color: #f1f1f1;
+  width: 100%;
+
+
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.overlay1 p { 
+position: relative;
+top: 0;
+
+}
+.overlay1 h1{
+    position: relative;
+    top: 0;
+    color: rgb(238, 240, 238);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+  
+  
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
