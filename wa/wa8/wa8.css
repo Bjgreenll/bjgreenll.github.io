@@ -23,13 +23,13 @@ nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color:rgb(9, 237, 62);
 }
 
 
 img{
-    width:30vw;
-    height: 30vh;
+    width:50vw;
+    height: 50vh;
 }
 
 #purple-ball{
@@ -40,11 +40,12 @@ img{
     position: absolute;
     left:5vw;
     top:0;
+    transition: left 0.5s, top 0.5s;
     animation: bounce 2s infinite; 
 }
 
 @keyframes bounce {
-    30%, 100% {
+    35%, 150% {
         top: 20;
     }
     50% {
