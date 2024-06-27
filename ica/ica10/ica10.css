@@ -1,0 +1,10 @@
+.clicked{
+    background-color: black;
+}
+#button-2{
+    transition: all 2000ms ease-in-out;
+}
+.clicked2{
+    padding: 70px;
+    color: red;
+}
