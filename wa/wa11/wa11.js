@@ -8,11 +8,19 @@ const overlay = document.querySelector('.overlay');
 
 const images = ['tropical1.jpg', `tropical2.jpg`, `tropical3.jpg`, `tropical4.jpg`, `tropical5.jpg`];
 const alts = {
+<<<<<<< HEAD
   'tropical1.jpg' : 'flowers',
   'tropical2.jpg' : 'sea weed',
   'tropical3.jpg' : 'Coral reef',
   'tropical4.jpg' : 'shells',
   'tropical5.jpg' : 'reef'
+=======
+  'tropic1.jpg' : 'flowers',
+  'tropic2.jpg' : 'sea weed',
+  'tropic3.jpg' : 'Coral reef',
+  'tropic4.jpg' : 'shells',
+  'tropic5.jpg' : 'reef'
+>>>>>>> 6b384761d94349d5c5771fc73e17ff35e3629454
 }
 
 /* Looping through images */
