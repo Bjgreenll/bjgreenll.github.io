@@ -6,14 +6,14 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['tropical1.JPG', `tropical2.JPG`, `tropical3.JPG`, `tropical4.JPG`, `tropical5.JPG`];
+const images = ['tropical1.jpg', `tropical2.jpg`, `tropical3.jpg`, `tropical4.jpg`, `tropical5.jpg`];
 const alts = {
 
-  'tropical1.JPG' : 'flowers',
-  'tropical2.JPG' : 'sea weed',
-  'tropical3.JPG' : 'Coral reef',
-  'tropical4.JPG' : 'shells',
-  'tropical5.JPG' : 'reef'
+  'tropical1.jpg' : 'flowers',
+  'tropical2.jpg' : 'sea weed',
+  'tropical3.jpg' : 'Coral reef',
+  'tropical4.jpg' : 'shells',
+  'tropical5.jpg' : 'reef'
 
 }
 
