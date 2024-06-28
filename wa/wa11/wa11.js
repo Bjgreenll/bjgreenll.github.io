@@ -8,11 +8,11 @@ const overlay = document.querySelector('.overlay');
 
 const images = ['tropic1.jpg', `tropic2.jpg`, `tropic3.jpg`, `tropic4.jpg`, `tropic5.jpg`];
 const alts = {
-  'tropic1.JPG' : 'flowers',
-  'tropic2.JPG' : 'sea weed',
-  'tropic3.JPG' : 'Coral reef',
-  'tropic4.JPG' : 'shells',
-  'tropic5.JPG' : 'reef'
+  'tropic1.jpg' : 'flowers',
+  'tropic2.jpg' : 'sea weed',
+  'tropic3.jpg' : 'Coral reef',
+  'tropic4.jpg' : 'shells',
+  'tropic5.jpg' : 'reef'
 }
 
 /* Looping through images */
