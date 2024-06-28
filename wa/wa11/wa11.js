@@ -6,20 +6,20 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['tropic1.jpg', `tropic2.jpg`, `tropic3.jpg`, `tropic4.jpg`, `tropic5.jpg`];
+const images = ['tropical1.jpg', `tropical2.jpg`, `tropical3.jpg`, `tropical4.jpg`, `tropical5.jpg`];
 const alts = {
-  'tropic1.JPG' : 'flowers',
-  'tropic2.JPG' : 'sea weed',
-  'tropic3.JPG' : 'Coral reef',
-  'tropic4.JPG' : 'shells',
-  'tropic5.JPG' : 'reef'
+  'tropical1.jpg' : 'flowers',
+  'tropical2.jpg' : 'sea weed',
+  'tropical3.jpg' : 'Coral reef',
+  'tropical4.jpg' : 'shells',
+  'tropical5.jpg' : 'reef'
 }
 
 /* Looping through images */
 
 for (const image of images) {
   const newImage = document.createElement('img');
-  newImage.setAttribute('src', `${image}`);
+  newImage.setAttribute('src', `img11/${image}`);
   newImage.setAttribute('alt', alts[image]);
   thumbBar.appendChild(newImage);
   newImage.addEventListener('click', e => {
