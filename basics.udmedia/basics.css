@@ -1,0 +1,34 @@
+h1, h2 {
+    color: purple;
+  }
+  h1{
+    font-style: italic;
+  }
+  h2{
+    font-style: italic;
+  }
+  p {
+    color: gold;
+  }
+  
+  ul {
+    border: 3px solid orange;
+  }
+  
+  ol {
+    border: 3px solid lightblue;
+  }
+  
+  ol, ul {
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+  
+  h1, strong {
+    color: pink;
+  }
+  
+  em {
+    color: greenyellow;
+  }
+          
