@@ -29,7 +29,7 @@ class Ball {
   draw() {
     ctx.beginPath();
     ctx.fillStyle = this.color;
-    ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
+    ctx.arc(this.x, this.y, this.size, 0, 3 * Math.PI);
     ctx.fill();
   }
 
@@ -69,20 +69,20 @@ class Ball {
 }
 const balls = [];
 
-while (balls.length < 25) {
-  const size = random(10, 20);
+while (balls.length < 30) {
+  const size = random(15, 30);
   const ball = new Ball(
     random(0 + size, width - size),
     random(0 + size, height - size),
-    random(-7, 7),
-    random(-7, 7),
+    random(-8, 8),
+    random(-8, 8),
     randomRGB(),
     size
   );
   balls.push(ball);
 }
 function loop() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
+  ctx.fillStyle = "rgba(0, 0, 0, 0.50)";
   ctx.fillRect(0, 0, width, height);
 
   for (const ball of balls) {
