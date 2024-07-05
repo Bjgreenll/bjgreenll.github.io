@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 45px;
+}
+
+#phone-number {
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 225px;
+    text-align: center;
+}
+
+#number-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    height: 200px; 
+}
+
+.number {
+    font-size: 25px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    color: purple;
+    margin: 8px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 150% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-30px);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-size: 20px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
