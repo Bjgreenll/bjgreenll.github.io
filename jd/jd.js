@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
         let number = document.createElement('div');
         number.classList.add('number');
         number.textContent = i;
-        number.style.left = `${Math.random() * 90}vw`;
-        number.style.top = `${Math.random() * 90}vh`;
+        number.style.left = `${Math.random() * 95}vw`;
+        number.style.top = `${Math.random() * 97}vh`;
         numberContainer.appendChild(number);
 
         number.addEventListener('click', function() {
@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function moveNumber(number) {
         setInterval(() => {
-            number.style.left = `${Math.random() * 90}vw`;
-            number.style.top = `${Math.random() * 90}vh`;
+            number.style.left = `${Math.random() * 95}vw`;
+            number.style.top = `${Math.random() * 96}vh`;
         }, 3000);
     }
 
     function toggleVisibility(number) {
         setInterval(() => {
             number.classList.toggle('hidden');
-        }, 3000);
+        }, 2500);
     }
 
     resetButton.addEventListener('click', function() {
