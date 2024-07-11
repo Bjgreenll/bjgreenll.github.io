@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+/* form styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #4B0082;
+
+}
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+h1 {
+    color: #4B0082; /* Dark purple for headings */
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    color: #4B0082;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+ label{
+	margin-right: .3em;
+	width: 6.3em;
+	display: inline-block;
+	font-style: italic;
+    color: #4B0082;
+    
+ }
+
+#formcol1 li{
+	list-style: none;
+}
+
+legend {
+    color: #4B0082;
+    font-style: italic;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #d2e00d !important;}
+
+	#formcol1 input.reqfield {
+		background:#FF9;
+	}
+	
+	
+/* end of form css */
+	
